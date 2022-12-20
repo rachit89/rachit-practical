@@ -1,4 +1,4 @@
-module "pritunl" {
+module "rachit-pritunl" {
   source  = "terraform-aws-modules/ec2-instance/aws"
   version = "~> 3.0"
   name = "rachit-Pritunl-Host"
