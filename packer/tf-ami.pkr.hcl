@@ -14,7 +14,7 @@ source "amazon-ebs" "rachit-node-ami" {
   region        = "us-west-2"
   source_ami = "ami-0530ca8899fac469f"
   ssh_username = "ubuntu"
-  iam_instance_profile = "CodeDeploynodejsAppEC2"
+  iam_instance_profile = "rachit-codedeploy"
 }
 
 build {
